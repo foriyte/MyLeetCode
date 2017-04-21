@@ -236,7 +236,7 @@ class solution {
     }
 
 	//Question 6
-	string convert(string s, int numRows) {
+    string convert(string s, int numRows) {
         if(numRows==1) return s;
         string res = s;
         //if() return res;
@@ -269,7 +269,7 @@ class solution {
     }
 
 	//Question 7
-	int reverse(int x) {
+    int reverse(int x) {
         long res =0;
         long n = 1;
         int flag = 1;
@@ -294,9 +294,8 @@ class solution {
           return res*flag;
       }
 
-	//Question
-
-	int myAtoi(string str) {
+	//Question 8
+    int myAtoi(string str) {
     	if(str=="") return 0;
     	long long res = 0;
     	while(str[0]==' ')
