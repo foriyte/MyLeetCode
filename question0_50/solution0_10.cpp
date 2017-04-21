@@ -63,7 +63,7 @@ class solution {
         return res;
     }
 	//Question 2
-	ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         //reverseList(l2);
         
         ListNode *root = l1;
@@ -130,7 +130,7 @@ class solution {
     }
 
     //Question 3
-	int lengthOfLongestSubstring(string s) {
+    int lengthOfLongestSubstring(string s) {
         map<char,int> hash;
         //map<char,int> mapp;
         int count = 0;
@@ -206,7 +206,7 @@ class solution {
     }
 
     //Question 5
-	string longestPalindrome(string s) {
+    string longestPalindrome(string s) {
         bool dp[s.size()][s.size()];
         for(int i=0;i<s.size();i++){
             for(int j=0;j<s.size();j++){
@@ -324,7 +324,7 @@ class solution {
     }
 
 	//Question 9
-	bool isPalindrome(int x) {
+    bool isPalindrome(int x) {
         int res = 0;
         int t = x;
         if(x<0) return false;
